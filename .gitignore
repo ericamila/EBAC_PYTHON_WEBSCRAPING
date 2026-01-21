@@ -13,3 +13,5 @@ data/raw/pop_corrigida.csv
 data/raw/populacao.xls
 data/ready/pop_mun_final.csv
 data/ready/relatorio_estatistico_pop.csv
+
+.venv/
