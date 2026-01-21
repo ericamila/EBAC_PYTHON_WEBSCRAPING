@@ -38,10 +38,10 @@ pip install pandas geopandas matplotlib
 
 FONTE DA MALHA GEOGRÁFICA:
 IBGE - Malha Municipal 2024
-Arquivo: BR_Municipios_2024.shp
+Arquivo: RR_Municipios_2024.shp
 
 RESULTADO:
-Mapa salvo em: C:/Users/<seu_usuario>/Desktop/projetos/graficos/mapa_populacao_municipios_com_divisas_estaduais.png
+Mapa salvo em: C:/Users/<seu_usuario>/Desktop/projetos/graficos/mapa_populacao_municipios_com_divisas_roraima.png
 """
 
 import pandas as pd
@@ -55,9 +55,9 @@ from matplotlib.colors import LogNorm
 # ============================
 OUTDIR = Path.home() / "Desktop" / "ebac" / "EBAC_PYTHON_WEBSCRAPING" / "data"
 data_path = OUTDIR / "ready" / "pop_mun_final.csv"
-map_mun_path = OUTDIR / "dados_shapefile" / "BR_Municipios_2024" / "BR_Municipios_2024.shp"
+map_mun_path = OUTDIR / "dados_shapefile" / "RR_Municipios_2024" / "RR_Municipios_2024.shp"
 output_dir = Path.home() / "Desktop" / "ebac" / "EBAC_PYTHON_WEBSCRAPING" / "graficos"
-output_map = output_dir / "mapa_populacao_municipios_com_divisas_estaduais.png"
+output_map = output_dir / "mapa_populacao_municipios_com_divisas_estaduais_roraima.png"
 Path(output_dir).mkdir(parents=True, exist_ok=True)
 
 # ============================
@@ -88,7 +88,7 @@ mun.columns = [c.lower() for c in mun.columns]
 
 # Identifica colunas relevantes automaticamente
 col_ibge = [c for c in mun.columns if "cd_mun" in c or "cod" in c][0]
-col_uf   = [c for c in mun.columns if "uf" in c and "sigla" in c or c == "sigla_uf" or "nm_uf" in c][0]
+col_mun  = [c for c in mun.columns if "cd_mun" in c or "cod" in c][0]  # Usado para dissolve
 
 # Padroniza código IBGE no shapefile
 mun["id_ibge"] = mun[col_ibge].astype(str).str.replace(".0", "", regex=False).str.zfill(7)
@@ -100,8 +100,8 @@ geo = geo[geo["populacao_estimada"].notna()]
 # ============================
 # Criar divisas estaduais (dissolve)
 # ============================
-# Agrupa municípios por UF para formar contornos estaduais
-ufs = geo.dissolve(by=col_uf)
+# Agrupa para formar contornos municipais
+municipios = geo.dissolve(by=col_mun)
 
 # ============================
 # Geração do mapa
@@ -128,13 +128,13 @@ geo.plot(
 )
 
 # Adiciona divisas estaduais com linha grossa
-ufs.boundary.plot(
+municipios.boundary.plot(
     ax=ax,
     linewidth=1.8,
     edgecolor="black"
 )
 
-ax.set_title("Mapa do Brasil: Densidade Populacional por Municípios", fontsize=16)
+ax.set_title("Mapa de Roraima: Densidade Populacional por Municípios", fontsize=16)
 ax.axis("off")
 plt.tight_layout()
 plt.savefig(output_map, dpi=300)

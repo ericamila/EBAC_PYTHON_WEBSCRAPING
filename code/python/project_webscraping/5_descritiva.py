@@ -44,8 +44,10 @@ import pandas as pd
 from pathlib import Path
 
 # Caminho do arquivo
-input_path = r"C:\Users\Rodrigo\Desktop\projetos\data\ready\pop_mun_final.csv"
-output_path = r"C:\Users\Rodrigo\Desktop\projetos\data\ready\relatorio_estatistico_pop.csv"
+OUTDIR = Path.home() / "Desktop" / "ebac" / "EBAC_PYTHON_WEBSCRAPING" / "data" / "ready"
+
+input_path = OUTDIR /"pop_mun_final.csv"
+output_path = OUTDIR / "relatorio_estatistico_pop.csv"
 
 # Leitura dos dados
 df = pd.read_csv(input_path, dtype=str)

@@ -55,7 +55,7 @@ BASE_MUNICIPIOS = "https://servicodados.ibge.gov.br/api/v1/localidades/municipio
 HEADERS = {"User-Agent": "ProjetoScrapingIBGE/ListaMunicipios/1.0 - contato: seu-email@exemplo.com"}
 
 # Pasta de saída (ajuste se quiser outro local)
-OUTDIR = Path.home() / "Desktop" / "projetos" / "data" / "raw"
+OUTDIR = Path.home() / "Desktop" / "ebac" / "EBAC_PYTHON_WEBSCRAPING" / "data" / "raw"
 OUTFILE = OUTDIR / "municipios.csv"
 
 # Pequena pausa entre operações (não estritamente necessária aqui, mas boa prática)
@@ -138,7 +138,7 @@ if __name__ == "__main__":
 # ----------- VERIFICAÇÃO DOS DADOS -------------
 
 # Carrega o arquivo gerado para verificação
-caminho_db = pd.read_csv(r'C:\Users\Rodrigo\Desktop\projetos\data\raw\municipios.csv')
+caminho_db = pd.read_csv(OUTFILE, encoding="utf-8")
 df = caminho_db
 
 # Exibe as primeiras linhas

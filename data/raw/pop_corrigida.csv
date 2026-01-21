@@ -15,7 +15,7 @@ id_ibge,UF,COD. UF,COD. MUNIC,NOME DO MUNICÍPIO,POPULAÇÃO ESTIMADA,Unnamed: 5
 1100148,RO,11,00148,Nova Brasilândia D'Oeste,16374,
 1100155,RO,11,00155,Ouro Preto do Oeste,38684,
 1100189,RO,11,00189,Pimenta Bueno,39220,
-1100205,RO,11,00205,Porto Velho,517709,(1)
+1100205,RO,11,00205,Porto Velho,517709,
 1100254,RO,11,00254,Presidente Médici,20443,
 1100262,RO,11,00262,Rio Crespo,3767,
 1100288,RO,11,00288,Rolim de Moura,62959,
@@ -73,42 +73,42 @@ id_ibge,UF,COD. UF,COD. MUNIC,NOME DO MUNICÍPIO,POPULAÇÃO ESTIMADA,Unnamed: 5
 1200609,AC,12,00609,Tarauacá,46816,
 1200708,AC,12,00708,Xapuri,19170,
 1200807,AC,12,00807,Porto Acre,17523,
-1300029,AM,13,00029,Alvarães,16806,(2)
-1300060,AM,13,00060,Amaturá,11533,(3)
+1300029,AM,13,00029,Alvarães,16806,(1)
+1300060,AM,13,00060,Amaturá,11533,(2)
 1300086,AM,13,00086,Anamã,9981,
 1300102,AM,13,00102,Anori,18056,
-1300144,AM,13,00144,Apuí,21781,(4)
+1300144,AM,13,00144,Apuí,21781,(3)
 1300201,AM,13,00201,Atalaia do Norte,15889,
 1300300,AM,13,00300,Autazes,45960,
-1300409,AM,13,00409,Barcelos,18210,(5)
+1300409,AM,13,00409,Barcelos,18210,(4)
 1300508,AM,13,00508,Barreirinha,33722,
-1300607,AM,13,00607,Benjamin Constant,40908,(6)
+1300607,AM,13,00607,Benjamin Constant,40908,(5)
 1300631,AM,13,00631,Beruri,22495,
 1300680,AM,13,00680,Boa Vista do Ramos,26479,
 1300706,AM,13,00706,Boca do Acre,38792,
 1300805,AM,13,00805,Borba,34869,
 1300839,AM,13,00839,Caapiranga,14806,
-1300904,AM,13,00904,Canutama,18109,(7)
+1300904,AM,13,00904,Canutama,18109,(6)
 1301001,AM,13,01001,Carauari,31130,
-1301100,AM,13,01100,Careiro,32336,(8)
-1301159,AM,13,01159,Careiro da Várzea,20324,(9)
+1301100,AM,13,01100,Careiro,32336,(7)
+1301159,AM,13,01159,Careiro da Várzea,20324,(8)
 1301209,AM,13,01209,Coari,73576,
-1301308,AM,13,01308,Codajás,24572,(10)
+1301308,AM,13,01308,Codajás,24572,(9)
 1301407,AM,13,01407,Eirunepé,35793,
-1301506,AM,13,01506,Envira,17985,(11)
-1301605,AM,13,01605,Fonte Boa,28227,(12)
-1301654,AM,13,01654,Guajará,14344,(13)
+1301506,AM,13,01506,Envira,17985,(10)
+1301605,AM,13,01605,Fonte Boa,28227,(11)
+1301654,AM,13,01654,Guajará,14344,(12)
 1301704,AM,13,01704,Humaitá,63454,
 1301803,AM,13,01803,Ipixuna,25629,
 1301852,AM,13,01852,Iranduba,68862,
-1301902,AM,13,01902,Itacoatiara,113917,(14)
-1301951,AM,13,01951,Itamarati,11956,(15)
+1301902,AM,13,01902,Itacoatiara,113917,(13)
+1301951,AM,13,01951,Itamarati,11956,(14)
 1302009,AM,13,02009,Itapiranga,10955,
-1302108,AM,13,02108,Japurá,9420,(16)
-1302207,AM,13,02207,Juruá,11093,(17)
+1302108,AM,13,02108,Japurá,9420,(15)
+1302207,AM,13,02207,Juruá,11093,(16)
 1302306,AM,13,02306,Jutaí,28202,
 1302405,AM,13,02405,Lábrea,49469,
-1302504,AM,13,02504,Manacapuru,111751,(18)
+1302504,AM,13,02504,Manacapuru,111751,(17)
 1302553,AM,13,02553,Manaquiri,16211,
 1302603,AM,13,02603,Manaus,2303732,
 1302702,AM,13,02702,Manicoré,58018,
@@ -116,25 +116,25 @@ id_ibge,UF,COD. UF,COD. MUNIC,NOME DO MUNICÍPIO,POPULAÇÃO ESTIMADA,Unnamed: 5
 1302900,AM,13,02900,Maués,66336,
 1303007,AM,13,03007,Nhamundá,21251,
 1303106,AM,13,03106,Nova Olinda do Norte,28123,
-1303205,AM,13,03205,Novo Airão,16562,(19)
+1303205,AM,13,03205,Novo Airão,16562,(18)
 1303304,AM,13,03304,Novo Aripuanã,25325,
-1303403,AM,13,03403,Parintins,101855,(20)
+1303403,AM,13,03403,Parintins,101855,(19)
 1303502,AM,13,03502,Pauini,20229,
 1303536,AM,13,03536,Presidente Figueiredo,33291,
-1303569,AM,13,03569,Rio Preto da Eva,25364,(21)
+1303569,AM,13,03569,Rio Preto da Eva,25364,(20)
 1303601,AM,13,03601,Santa Isabel do Rio Negro,13947,
 1303700,AM,13,03700,Santo Antônio do Içá,30679,
-1303809,AM,13,03809,São Gabriel da Cachoeira,57396,(22)
-1303908,AM,13,03908,São Paulo de Olivença,35442,(23)
+1303809,AM,13,03809,São Gabriel da Cachoeira,57396,(21)
+1303908,AM,13,03908,São Paulo de Olivença,35442,(22)
 1303957,AM,13,03957,São Sebastião do Uatumã,12338,
 1304005,AM,13,04005,Silves,12619,
 1304062,AM,13,04062,Tabatinga,73348,
 1304104,AM,13,04104,Tapauá,20728,
 1304203,AM,13,04203,Tefé,80137,
-1304237,AM,13,04237,Tonantins,20257,(24)
-1304260,AM,13,04260,Uarini,15640,(25)
-1304302,AM,13,04302,Urucará,19617,(26)
-1304401,AM,13,04401,Urucurituba,25965,(27)
+1304237,AM,13,04237,Tonantins,20257,(23)
+1304260,AM,13,04260,Uarini,15640,(24)
+1304302,AM,13,04302,Urucará,19617,(25)
+1304401,AM,13,04401,Urucurituba,25965,(26)
 1400027,RR,14,00027,Amajari,16112,
 1400050,RR,14,00050,Alto Alegre,23589,
 1400100,RR,14,00100,Boa Vista,485477,
@@ -659,7 +659,7 @@ id_ibge,UF,COD. UF,COD. MUNIC,NOME DO MUNICÍPIO,POPULAÇÃO ESTIMADA,Unnamed: 5
 2112407,MA,21,12407,Turiaçu,38993,
 2112456,MA,21,12456,Turilândia,33219,
 2112506,MA,21,12506,Tutóia,55076,
-2112605,MA,21,12605,Urbano Santos,34143,(28)
+2112605,MA,21,12605,Urbano Santos,34143,(27)
 2112704,MA,21,12704,Vargem Grande,44444,
 2112803,MA,21,12803,Viana,53176,
 2112852,MA,21,12852,Vila Nova dos Martírios,10561,
@@ -2302,7 +2302,7 @@ id_ibge,UF,COD. UF,COD. MUNIC,NOME DO MUNICÍPIO,POPULAÇÃO ESTIMADA,Unnamed: 5
 3105202,MG,31,05202,Bandeira,4811,
 3105301,MG,31,05301,Bandeira do Sul,6183,
 3105400,MG,31,05400,Barão de Cocais,32264,
-3105509,MG,31,05509,Barão de Monte Alto,4952,
+3105509,MG,31,05509,Barão do Monte Alto,4952,
 3105608,MG,31,05608,Barbacena,129695,
 3105707,MG,31,05707,Barra Longa,5717,
 3105905,MG,31,05905,Barroso,20604,
@@ -4035,7 +4035,7 @@ id_ibge,UF,COD. UF,COD. MUNIC,NOME DO MUNICÍPIO,POPULAÇÃO ESTIMADA,Unnamed: 5
 4108452,PR,41,08452,Foz do Jordão,4893,
 4108502,PR,41,08502,General Carneiro,10691,
 4108551,PR,41,08551,Godoy Moreira,2911,
-4108601,PR,41,08601,Goioerê,30025,
+4108601,PR,41,08601,Goioerê,28931,
 4108650,PR,41,08650,Goioxim,6469,
 4108700,PR,41,08700,Grandes Rios,5527,
 4108809,PR,41,08809,Guaíra,33058,
@@ -4134,7 +4134,7 @@ id_ibge,UF,COD. UF,COD. MUNIC,NOME DO MUNICÍPIO,POPULAÇÃO ESTIMADA,Unnamed: 5
 4115903,PR,41,15903,Mirador,2248,
 4116000,PR,41,16000,Miraselva,2017,
 4116059,PR,41,16059,Missal,11423,
-4116109,PR,41,16109,Moreira Sales,9949,
+4116109,PR,41,16109,Moreira Sales,11043,
 4116208,PR,41,16208,Morretes,19089,
 4116307,PR,41,16307,Munhoz de Melo,4057,
 4116406,PR,41,16406,Nossa Senhora das Graças,3669,
@@ -5302,7 +5302,7 @@ id_ibge,UF,COD. UF,COD. MUNIC,NOME DO MUNICÍPIO,POPULAÇÃO ESTIMADA,Unnamed: 5
 5107768,MT,51,07768,Santa Rita do Trivelato,3536,
 5107776,MT,51,07776,Santa Terezinha,7737,
 5107792,MT,51,07792,Santo Antônio do Leste,4244,
-5107800,MT,51,07800,Santo Antônio do Leverger,16839,
+5107800,MT,51,07800,Santo Antônio de Leverger,16839,
 5107859,MT,51,07859,São Félix do Araguaia,14604,
 5107875,MT,51,07875,Sapezal,32514,
 5107883,MT,51,07883,Serra Nova Dourada,1941,
@@ -5572,33 +5572,34 @@ id_ibge,UF,COD. UF,COD. MUNIC,NOME DO MUNICÍPIO,POPULAÇÃO ESTIMADA,Unnamed: 5
 5300108,DF,53,00108,Brasília,2996899,
 0000000,,00,00000,,,
 0000000,Fonte: IBGE. Diretoria de Pesquisas - DPE -  Coordenação de População e Indicadores Sociais - COPIS.,00,00000,,,
-População judicial do município de Porto Velho-RO: 494.013 habitantes. Processo Judicial nº 0012316-40.2016.4.01.4100 - Plantão Judicial da Seção Judiciária de Rondônia00000,1,População judicial do município de Porto Velho-RO: 494.013 habitantes. Processo Judicial nº 0012316-40.2016.4.01.4100 - Plantão Judicial da Seção Judiciária de Rondônia,00000,,,
-População judicial do município de Alvarães-AM: 30.565  habitantes. Processo Judicial nº1024023-54.2025.4.01.3200 - 9ª Vara Federal da Seção Judiciária do Amazonas00000,2,População judicial do município de Alvarães-AM: 30.565  habitantes. Processo Judicial nº1024023-54.2025.4.01.3200 - 9ª Vara Federal da Seção Judiciária do Amazonas,00000,,,
-População judicial do município de Amaturá-AM: 16.981 habitantes. Processo Judicial nº 1046072-26.2024.4.01.3200 - 09ª Vara Federal Cível da Seção Judiciária do Amazonas00000,3,População judicial do município de Amaturá-AM: 16.981 habitantes. Processo Judicial nº 1046072-26.2024.4.01.3200 - 09ª Vara Federal Cível da Seção Judiciária do Amazonas,00000,,,
-População judicial do município de Apuí-AM: 30.565 habitantes. Processo Judicial nº 1022687-15.2025.4.01.3200 - 03ª Vara Federal Cível da Seção Judiciária do Amazonas00000,4,População judicial do município de Apuí-AM: 30.565 habitantes. Processo Judicial nº 1022687-15.2025.4.01.3200 - 03ª Vara Federal Cível da Seção Judiciária do Amazonas,00000,,,
-População judicial do município de Barcelos-AM: entre 37.357 e 44.148 habitantes. Processo Judicial nº 1009427-70.2022.4.01.3200 - 03ª Vara Federal Cível da Seção Judiciária do Amazonas00000,5,População judicial do município de Barcelos-AM: entre 37.357 e 44.148 habitantes. Processo Judicial nº 1009427-70.2022.4.01.3200 - 03ª Vara Federal Cível da Seção Judiciária do Amazonas,00000,,,
-População judicial do município de Benjamin Constant-AM: na faixa de 44.149 habitantes. Processo Judicial nº 1000062-26.2021.4.01.3200 – 1ª Vara Federal Cível da Seção Judiciária do Amazonas.00000,6,População judicial do município de Benjamin Constant-AM: na faixa de 44.149 habitantes. Processo Judicial nº 1000062-26.2021.4.01.3200 – 1ª Vara Federal Cível da Seção Judiciária do Amazonas.,00000,,,
-População judicial do município de Canutama-AM: 23.773 habitantes. Processo Judicial nº 1048132-06.2023.4.01.3200 - Plantão Judicial da Seção Judiciária do Amazonas00000,7,População judicial do município de Canutama-AM: 23.773 habitantes. Processo Judicial nº 1048132-06.2023.4.01.3200 - Plantão Judicial da Seção Judiciária do Amazonas,00000,,,
-População judicial do município de Careiro-AM: 50.941 habitantes. Processo Judicial nº 1048133-88.2023.4.01.3200 - 03ª Vara Federal Cível da Seção Judiciária do Amazonas00000,8,População judicial do município de Careiro-AM: 50.941 habitantes. Processo Judicial nº 1048133-88.2023.4.01.3200 - 03ª Vara Federal Cível da Seção Judiciária do Amazonas,00000,,,
-População judicial do município de Careiro da Várzea-AM:  44.149 habitantes. Processo Judicial nº 1046095-69.2024.4.01.3200 – 3ª Vara Federal Cível da Seção Judiciária do Amazonas.00000,9,População judicial do município de Careiro da Várzea-AM:  44.149 habitantes. Processo Judicial nº 1046095-69.2024.4.01.3200 – 3ª Vara Federal Cível da Seção Judiciária do Amazonas.,00000,,,
-População judicial do Município de Codajás-AM: entre 37.357 a 44.148 habitantes. Processo Judicial nº 1038474-55.2023.4.01.3200 – 9ª Vara Federal Cível da Seção Judiciária do Amazonas.00000,10,População judicial do Município de Codajás-AM: entre 37.357 a 44.148 habitantes. Processo Judicial nº 1038474-55.2023.4.01.3200 – 9ª Vara Federal Cível da Seção Judiciária do Amazonas.,00000,,,
-População judicial do município de Envira-AM: 30.565 habitantes. Processo Judicial nº 1037249-97.2023.4.01.3200 - 03ª Vara Federal Cível da Seção Judiciária do Amazonas00000,11,População judicial do município de Envira-AM: 30.565 habitantes. Processo Judicial nº 1037249-97.2023.4.01.3200 - 03ª Vara Federal Cível da Seção Judiciária do Amazonas,00000,,,
-População judicial do município de Fonte Boa-AM: entre 23.773 a 30.564 habitantes. Processo Judicial nº 1000164-14.2022.4.01.3200 - Plantão Judicial da Seção Judiciária do Amazonas00000,12,População judicial do município de Fonte Boa-AM: entre 23.773 a 30.564 habitantes. Processo Judicial nº 1000164-14.2022.4.01.3200 - Plantão Judicial da Seção Judiciária do Amazonas,00000,,,
-População judicial do município de Guajará-AM: na faixa de 16.981 habitantes. Processo Judicial nº 1000064-93.2021.4.01.3200 - 03ª Vara Federal Cível da Seção Judiciária do Amazonas00000,13,População judicial do município de Guajará-AM: na faixa de 16.981 habitantes. Processo Judicial nº 1000064-93.2021.4.01.3200 - 03ª Vara Federal Cível da Seção Judiciária do Amazonas,00000,,,
-População judicial do município de Itacoatiara-AM: acima de 156.216. Processo Judicial nº  1018170-35.2023.4.01.3200 -  01ª Vara Federal Cível da Seção Judiciária do Amazonas00000,14,População judicial do município de Itacoatiara-AM: acima de 156.216. Processo Judicial nº  1018170-35.2023.4.01.3200 -  01ª Vara Federal Cível da Seção Judiciária do Amazonas,00000,,,
-População judicial do município de Itamarati-AM: 10.189 a 13.584 habitantes. Processo Judicial nº 1006765-02.2023.4.01.3200 - 03ª Vara Federal Cível da Seção Judiciária do Amazonas.00000,15,População judicial do município de Itamarati-AM: 10.189 a 13.584 habitantes. Processo Judicial nº 1006765-02.2023.4.01.3200 - 03ª Vara Federal Cível da Seção Judiciária do Amazonas.,00000,,,
-População judicial do município de Japurá-AM: 23.773 habitantes. Processo Judicial nº 1024025-24.2025.4.01.3200 - 09ª Vara Federal Cível da Seção Judiciária do Amazonas00000,16,População judicial do município de Japurá-AM: 23.773 habitantes. Processo Judicial nº 1024025-24.2025.4.01.3200 - 09ª Vara Federal Cível da Seção Judiciária do Amazonas,00000,,,
-População judicial do município de Juruá-AM: 23.773 a 30.564. Processo Judicial nº 1036625-48.2023.4.01.3200 - Plantão Judicial da Seção Judiciária do Amazonas.00000,17,População judicial do município de Juruá-AM: 23.773 a 30.564. Processo Judicial nº 1036625-48.2023.4.01.3200 - Plantão Judicial da Seção Judiciária do Amazonas.,00000,,,
-População judicial do município de Manacapuru-AM: 169.041 habitantes. Processo Judicial nº 1011348-64.2022.4.01.3200 - 03ª Vara Federal Cível da Seção Judiciária do Amazonas00000,18,População judicial do município de Manacapuru-AM: 169.041 habitantes. Processo Judicial nº 1011348-64.2022.4.01.3200 - 03ª Vara Federal Cível da Seção Judiciária do Amazonas,00000,,,
+0000000,,00,00000,,,
+0000000,Notas:,00,00000,,,
+População judicial do município de Alvarães-AM: 30.565  habitantes. Processo Judicial nº1024023-54.2025.4.01.3200 - 9ª Vara Federal da Seção Judiciária do Amazonas00000,1,População judicial do município de Alvarães-AM: 30.565  habitantes. Processo Judicial nº1024023-54.2025.4.01.3200 - 9ª Vara Federal da Seção Judiciária do Amazonas,00000,,,
+População judicial do município de Amaturá-AM: 16.981 habitantes. Processo Judicial nº 1046072-26.2024.4.01.3200 - 09ª Vara Federal Cível da Seção Judiciária do Amazonas00000,2,População judicial do município de Amaturá-AM: 16.981 habitantes. Processo Judicial nº 1046072-26.2024.4.01.3200 - 09ª Vara Federal Cível da Seção Judiciária do Amazonas,00000,,,
+População judicial do município de Apuí-AM: 30.565 habitantes. Processo Judicial nº 1022687-15.2025.4.01.3200 - 03ª Vara Federal Cível da Seção Judiciária do Amazonas00000,3,População judicial do município de Apuí-AM: 30.565 habitantes. Processo Judicial nº 1022687-15.2025.4.01.3200 - 03ª Vara Federal Cível da Seção Judiciária do Amazonas,00000,,,
+População judicial do município de Barcelos-AM: entre 37.357 e 44.148 habitantes. Processo Judicial nº 1009427-70.2022.4.01.3200 - 03ª Vara Federal Cível da Seção Judiciária do Amazonas00000,4,População judicial do município de Barcelos-AM: entre 37.357 e 44.148 habitantes. Processo Judicial nº 1009427-70.2022.4.01.3200 - 03ª Vara Federal Cível da Seção Judiciária do Amazonas,00000,,,
+População judicial do município de Benjamin Constant-AM: na faixa de 44.149 habitantes. Processo Judicial nº 1000062-26.2021.4.01.3200 – 1ª Vara Federal Cível da Seção Judiciária do Amazonas.00000,5,População judicial do município de Benjamin Constant-AM: na faixa de 44.149 habitantes. Processo Judicial nº 1000062-26.2021.4.01.3200 – 1ª Vara Federal Cível da Seção Judiciária do Amazonas.,00000,,,
+População judicial do município de Canutama-AM: 23.773 habitantes. Processo Judicial nº 1048132-06.2023.4.01.3200 - Plantão Judicial da Seção Judiciária do Amazonas00000,6,População judicial do município de Canutama-AM: 23.773 habitantes. Processo Judicial nº 1048132-06.2023.4.01.3200 - Plantão Judicial da Seção Judiciária do Amazonas,00000,,,
+População judicial do município de Careiro-AM: 50.941 habitantes. Processo Judicial nº 1048133-88.2023.4.01.3200 - 03ª Vara Federal Cível da Seção Judiciária do Amazonas00000,7,População judicial do município de Careiro-AM: 50.941 habitantes. Processo Judicial nº 1048133-88.2023.4.01.3200 - 03ª Vara Federal Cível da Seção Judiciária do Amazonas,00000,,,
+População judicial do município de Careiro da Várzea-AM:  44.149 habitantes. Processo Judicial nº 1046095-69.2024.4.01.3200 – 3ª Vara Federal Cível da Seção Judiciária do Amazonas.00000,8,População judicial do município de Careiro da Várzea-AM:  44.149 habitantes. Processo Judicial nº 1046095-69.2024.4.01.3200 – 3ª Vara Federal Cível da Seção Judiciária do Amazonas.,00000,,,
+População judicial do Município de Codajás-AM: entre 37.357 a 44.148 habitantes. Processo Judicial nº 1038474-55.2023.4.01.3200 – 9ª Vara Federal Cível da Seção Judiciária do Amazonas.00000,9,População judicial do Município de Codajás-AM: entre 37.357 a 44.148 habitantes. Processo Judicial nº 1038474-55.2023.4.01.3200 – 9ª Vara Federal Cível da Seção Judiciária do Amazonas.,00000,,,
+População judicial do município de Envira-AM: 30.565 habitantes. Processo Judicial nº 1037249-97.2023.4.01.3200 - 03ª Vara Federal Cível da Seção Judiciária do Amazonas00000,10,População judicial do município de Envira-AM: 30.565 habitantes. Processo Judicial nº 1037249-97.2023.4.01.3200 - 03ª Vara Federal Cível da Seção Judiciária do Amazonas,00000,,,
+População judicial do município de Fonte Boa-AM: entre 23.773 a 30.564 habitantes. Processo Judicial nº 1000164-14.2022.4.01.3200 - Plantão Judicial da Seção Judiciária do Amazonas00000,11,População judicial do município de Fonte Boa-AM: entre 23.773 a 30.564 habitantes. Processo Judicial nº 1000164-14.2022.4.01.3200 - Plantão Judicial da Seção Judiciária do Amazonas,00000,,,
+População judicial do município de Guajará-AM: na faixa de 16.981 habitantes. Processo Judicial nº 1000064-93.2021.4.01.3200 - 03ª Vara Federal Cível da Seção Judiciária do Amazonas00000,12,População judicial do município de Guajará-AM: na faixa de 16.981 habitantes. Processo Judicial nº 1000064-93.2021.4.01.3200 - 03ª Vara Federal Cível da Seção Judiciária do Amazonas,00000,,,
+População judicial do município de Itacoatiara-AM: acima de 156.216. Processo Judicial nº  1018170-35.2023.4.01.3200 -  01ª Vara Federal Cível da Seção Judiciária do Amazonas00000,13,População judicial do município de Itacoatiara-AM: acima de 156.216. Processo Judicial nº  1018170-35.2023.4.01.3200 -  01ª Vara Federal Cível da Seção Judiciária do Amazonas,00000,,,
+População judicial do município de Itamarati-AM: 10.189 a 13.584 habitantes. Processo Judicial nº 1006765-02.2023.4.01.3200 - 03ª Vara Federal Cível da Seção Judiciária do Amazonas.00000,14,População judicial do município de Itamarati-AM: 10.189 a 13.584 habitantes. Processo Judicial nº 1006765-02.2023.4.01.3200 - 03ª Vara Federal Cível da Seção Judiciária do Amazonas.,00000,,,
+População judicial do município de Japurá-AM: 23.773 habitantes. Processo Judicial nº 1024025-24.2025.4.01.3200 - 09ª Vara Federal Cível da Seção Judiciária do Amazonas00000,15,População judicial do município de Japurá-AM: 23.773 habitantes. Processo Judicial nº 1024025-24.2025.4.01.3200 - 09ª Vara Federal Cível da Seção Judiciária do Amazonas,00000,,,
+População judicial do município de Juruá-AM: 23.773 a 30.564. Processo Judicial nº 1036625-48.2023.4.01.3200 - Plantão Judicial da Seção Judiciária do Amazonas.00000,16,População judicial do município de Juruá-AM: 23.773 a 30.564. Processo Judicial nº 1036625-48.2023.4.01.3200 - Plantão Judicial da Seção Judiciária do Amazonas.,00000,,,
+População judicial do município de Manacapuru-AM: 169.041 habitantes. Processo Judicial nº 1011348-64.2022.4.01.3200 - 03ª Vara Federal Cível da Seção Judiciária do Amazonas00000,17,População judicial do município de Manacapuru-AM: 169.041 habitantes. Processo Judicial nº 1011348-64.2022.4.01.3200 - 03ª Vara Federal Cível da Seção Judiciária do Amazonas,00000,,,
 "População judicial do município de Novo Airão-AM: 30.565 habitantes. Processo Judicial nº 1023829-25.2023.4.01.3200 - 03ª Vara Federal Cível da Seção Judiciária do Amazonas
-00000",19,"População judicial do município de Novo Airão-AM: 30.565 habitantes. Processo Judicial nº 1023829-25.2023.4.01.3200 - 03ª Vara Federal Cível da Seção Judiciária do Amazonas
+00000",18,"População judicial do município de Novo Airão-AM: 30.565 habitantes. Processo Judicial nº 1023829-25.2023.4.01.3200 - 03ª Vara Federal Cível da Seção Judiciária do Amazonas
 ",00000,,,
-População judicial do município de Parintins-AM: na faixa de 115.465 habitantes. Processo Judicial nº 1022483-44.2020.4.01.3200 - 03ª Vara Federal Cível da Seção Judiciária do Amazonas00000,20,População judicial do município de Parintins-AM: na faixa de 115.465 habitantes. Processo Judicial nº 1022483-44.2020.4.01.3200 - 03ª Vara Federal Cível da Seção Judiciária do Amazonas,00000,,,
-População judicial do município de Rio Preto da Eva-AM: 53.819 habitantes. Processo Judicial nº 1028591-84.2023.4.01.3200 - 03ª Vara Federal Cível da Seção Judiciária do Amazonas00000,21,População judicial do município de Rio Preto da Eva-AM: 53.819 habitantes. Processo Judicial nº 1028591-84.2023.4.01.3200 - 03ª Vara Federal Cível da Seção Judiciária do Amazonas,00000,,,
-População judicial do município de São Gabriel da Cachoeira-AM: 81.780 habitantes. Processo Judicial nº 1023156-61.2025.4.01.3200 - 09ª Vara Federal Cível da Seção Judiciária do Amazonas00000,22,População judicial do município de São Gabriel da Cachoeira-AM: 81.780 habitantes. Processo Judicial nº 1023156-61.2025.4.01.3200 - 09ª Vara Federal Cível da Seção Judiciária do Amazonas,00000,,,
-População judicial do município de São Paulo de Olivença-AM: 51.115 habitantes. Processo Judicial nº 1004788-38.2024.4.01.3200 - 01ª Vara Federal Cível da Seção Judiciária do Amazonas00000,23,População judicial do município de São Paulo de Olivença-AM: 51.115 habitantes. Processo Judicial nº 1004788-38.2024.4.01.3200 - 01ª Vara Federal Cível da Seção Judiciária do Amazonas,00000,,,
-População judicial do município de Tonantins-AM: 30.810 habitantes. Processo Judicial nº 1018998-94.2024.4.01.3200 - 03ª Vara Federal Cível da Seção Judiciária do Amazonas00000,24,População judicial do município de Tonantins-AM: 30.810 habitantes. Processo Judicial nº 1018998-94.2024.4.01.3200 - 03ª Vara Federal Cível da Seção Judiciária do Amazonas,00000,,,
- População judicial do município de Uarini-AM: acima de 23.773 habitantes. Processo Judicial nº 1048092-24.2023.4.01.3200 - Plantão Judicial da Seção Judiciária do Amazonas00000,25, População judicial do município de Uarini-AM: acima de 23.773 habitantes. Processo Judicial nº 1048092-24.2023.4.01.3200 - Plantão Judicial da Seção Judiciária do Amazonas,00000,,,
-População judicial do município de Urucará-AM: 30.625 habitantes. Processo Judicial nº 1008620-79.2024.4.01.3200 - 03ª Vara Federal Cível da Seção Judiciária do Amazonas00000,26,População judicial do município de Urucará-AM: 30.625 habitantes. Processo Judicial nº 1008620-79.2024.4.01.3200 - 03ª Vara Federal Cível da Seção Judiciária do Amazonas,00000,,,
-População judicial do município de Urucurituba-AM: 37.357 habitantes. Processo Judicial nº 1046084-40.2024.4.01.3200 - 09ª Vara Federal Cível da Seção Judiciária do Amazonas. 00000,27,População judicial do município de Urucurituba-AM: 37.357 habitantes. Processo Judicial nº 1046084-40.2024.4.01.3200 - 09ª Vara Federal Cível da Seção Judiciária do Amazonas. ,00000,,,
-População judicial do município de Urbano Santos-MA: 53.014 habitantes. Processo Judicial nº 1059620-39.2025.4.01.3700 - 05ª Vara Federal Cível da Seção Judiciária do Maranhão00000,28,População judicial do município de Urbano Santos-MA: 53.014 habitantes. Processo Judicial nº 1059620-39.2025.4.01.3700 - 05ª Vara Federal Cível da Seção Judiciária do Maranhão,00000,,,
+População judicial do município de Parintins-AM: na faixa de 115.465 habitantes. Processo Judicial nº 1022483-44.2020.4.01.3200 - 03ª Vara Federal Cível da Seção Judiciária do Amazonas00000,19,População judicial do município de Parintins-AM: na faixa de 115.465 habitantes. Processo Judicial nº 1022483-44.2020.4.01.3200 - 03ª Vara Federal Cível da Seção Judiciária do Amazonas,00000,,,
+População judicial do município de Rio Preto da Eva-AM: 53.819 habitantes. Processo Judicial nº 1028591-84.2023.4.01.3200 - 03ª Vara Federal Cível da Seção Judiciária do Amazonas00000,20,População judicial do município de Rio Preto da Eva-AM: 53.819 habitantes. Processo Judicial nº 1028591-84.2023.4.01.3200 - 03ª Vara Federal Cível da Seção Judiciária do Amazonas,00000,,,
+População judicial do município de São Gabriel da Cachoeira-AM: 81.780 habitantes. Processo Judicial nº 1023156-61.2025.4.01.3200 - 09ª Vara Federal Cível da Seção Judiciária do Amazonas00000,21,População judicial do município de São Gabriel da Cachoeira-AM: 81.780 habitantes. Processo Judicial nº 1023156-61.2025.4.01.3200 - 09ª Vara Federal Cível da Seção Judiciária do Amazonas,00000,,,
+População judicial do município de São Paulo de Olivença-AM: 51.115 habitantes. Processo Judicial nº 1004788-38.2024.4.01.3200 - 01ª Vara Federal Cível da Seção Judiciária do Amazonas00000,22,População judicial do município de São Paulo de Olivença-AM: 51.115 habitantes. Processo Judicial nº 1004788-38.2024.4.01.3200 - 01ª Vara Federal Cível da Seção Judiciária do Amazonas,00000,,,
+População judicial do município de Tonantins-AM: 30.810 habitantes. Processo Judicial nº 1018998-94.2024.4.01.3200 - 03ª Vara Federal Cível da Seção Judiciária do Amazonas00000,23,População judicial do município de Tonantins-AM: 30.810 habitantes. Processo Judicial nº 1018998-94.2024.4.01.3200 - 03ª Vara Federal Cível da Seção Judiciária do Amazonas,00000,,,
+ População judicial do município de Uarini-AM: acima de 23.773 habitantes. Processo Judicial nº 1048092-24.2023.4.01.3200 - Plantão Judicial da Seção Judiciária do Amazonas00000,24, População judicial do município de Uarini-AM: acima de 23.773 habitantes. Processo Judicial nº 1048092-24.2023.4.01.3200 - Plantão Judicial da Seção Judiciária do Amazonas,00000,,,
+População judicial do município de Urucará-AM: 30.625 habitantes. Processo Judicial nº 1008620-79.2024.4.01.3200 - 03ª Vara Federal Cível da Seção Judiciária do Amazonas00000,25,População judicial do município de Urucará-AM: 30.625 habitantes. Processo Judicial nº 1008620-79.2024.4.01.3200 - 03ª Vara Federal Cível da Seção Judiciária do Amazonas,00000,,,
+População judicial do município de Urucurituba-AM: 37.357 habitantes. Processo Judicial nº 1046084-40.2024.4.01.3200 - 09ª Vara Federal Cível da Seção Judiciária do Amazonas. 00000,26,População judicial do município de Urucurituba-AM: 37.357 habitantes. Processo Judicial nº 1046084-40.2024.4.01.3200 - 09ª Vara Federal Cível da Seção Judiciária do Amazonas. ,00000,,,
+População judicial do município de Urbano Santos-MA: 53.014 habitantes. Processo Judicial nº 1059620-39.2025.4.01.3700 - 05ª Vara Federal Cível da Seção Judiciária do Maranhão00000,27,População judicial do município de Urbano Santos-MA: 53.014 habitantes. Processo Judicial nº 1059620-39.2025.4.01.3700 - 05ª Vara Federal Cível da Seção Judiciária do Maranhão,00000,,,

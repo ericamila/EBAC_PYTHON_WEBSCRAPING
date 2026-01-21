@@ -17,7 +17,7 @@ from urllib.parse import urljoin, urlparse
 import re
 
 PAGE_URL = "https://www.ibge.gov.br/estatisticas/sociais/populacao/9103-estimativas-de-populacao.html?=&t=resultados"
-OUTDIR = Path.home() / "Desktop" / "projetos" / "data" / "raw"
+OUTDIR = Path.home() / "Desktop" / "ebac" / "EBAC_PYTHON_WEBSCRAPING" / "data" / "raw"
 OUTDIR.mkdir(parents=True, exist_ok=True)
 
 HEADERS = {"User-Agent": "ScriptIBGE/BS4 - contato: seu-email@exemplo.com"}

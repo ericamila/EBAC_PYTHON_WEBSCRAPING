@@ -27,14 +27,17 @@ Glossário:
 """
 
 import pandas as pd
+from pathlib import Path
 
-# Caminhos
-input_path = r"C:\Users\Rodrigo\Desktop\projetos\data\raw\populacao.xls"
-output_path = r"C:\Users\Rodrigo\Desktop\projetos\data\raw\pop_corrigida.csv"
-sheet_name = "Municípios"
+# Caminho onde o arquivo será salvo (ajuste se quiser outro local)
+OUTDIR = Path.home() / "Desktop" / "ebac" / "EBAC_PYTHON_WEBSCRAPING" / "data" / "raw"
+OUTDIR.mkdir(parents=True, exist_ok=True)
+INPUT_PATH = OUTDIR / "populacao.xls"
+OUTPUT_PATH = OUTDIR / "pop_corrigida.csv"
+SHEET_NAME = "Municípios"
 
 # Leitura da planilha (header correto é 1)
-df = pd.read_excel(input_path, sheet_name=sheet_name, header=1, dtype=str)
+df = pd.read_excel(INPUT_PATH, sheet_name=SHEET_NAME, header=1, dtype=str)
 
 # Garante que são strings e remove NaN
 df["COD. UF"] = df["COD. UF"].fillna("").str.zfill(2)
@@ -48,8 +51,8 @@ cols = ["id_ibge"] + [c for c in df.columns if c != "id_ibge"]
 df = df[cols]
 
 # Salva o resultado
-df.to_csv(output_path, index=False, encoding="utf-8")
+df.to_csv(OUTPUT_PATH, index=False, encoding="utf-8")
 print("Arquivo gerado com sucesso em:")
-print(output_path)
+print(OUTPUT_PATH)
 
 # Fim do script #

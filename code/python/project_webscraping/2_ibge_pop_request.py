@@ -43,10 +43,10 @@ from pathlib import Path
 import requests
 
 # URL direta do arquivo .xls (conforme indicado)
-XLS_URL = "https://ftp.ibge.gov.br/Estimativas_de_Populacao/Estimativas_2025/POP2025_20251031.xls"
+XLS_URL = "https://ftp.ibge.gov.br/Estimativas_de_Populacao/Estimativas_2025/POP2025_20260113.xls"
 
 # Caminho onde o arquivo será salvo (ajuste se quiser outro local)
-OUTDIR = Path.home() / "Desktop" / "projetos" / "data" / "raw"
+OUTDIR = Path.home() / "Desktop" / "ebac" / "EBAC_PYTHON_WEBSCRAPING" / "data" / "raw"
 OUTDIR.mkdir(parents=True, exist_ok=True)
 XLS_LOCAL = OUTDIR / "populacao.xls"
 

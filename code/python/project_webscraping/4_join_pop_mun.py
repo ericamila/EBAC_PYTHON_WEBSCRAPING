@@ -34,9 +34,12 @@ import pandas as pd
 from pathlib import Path
 
 # Caminhos
-municipios_path = r"C:\Users\Rodrigo\Desktop\projetos\data\raw\municipios.csv"
-pop_path = r"C:\Users\Rodrigo\Desktop\projetos\data\raw\pop_corrigida.csv"
-output_path = r"C:\Users\Rodrigo\Desktop\projetos\data\ready\pop_mun_final.csv"
+INPUTDIR = Path.home() / "Desktop" / "ebac" / "EBAC_PYTHON_WEBSCRAPING" / "data" / "raw"
+OUTDIR = Path.home() / "Desktop" / "ebac" / "EBAC_PYTHON_WEBSCRAPING" / "data" / "ready"
+
+municipios_path = INPUTDIR / "municipios.csv"
+pop_path = INPUTDIR / "pop_corrigida.csv"
+output_path = OUTDIR / "pop_mun_final.csv"
 
 # Leitura dos arquivos
 df_mun = pd.read_csv(municipios_path, dtype=str)

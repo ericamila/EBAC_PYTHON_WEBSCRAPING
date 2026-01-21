@@ -1,0 +1,15 @@
+data/dados_shapefile/RR_Municipios_2024/RR_Municipios_2024.shp
+data/dados_shapefile/BR_Municipios_2024/BR_Municipios_2024.dbf
+data/dados_shapefile/BR_Municipios_2024/BR_Municipios_2024.shp
+data/dados_shapefile/RR_Municipios_2024/RR_Municipios_2024.cpg
+data/dados_shapefile/BR_Municipios_2024/BR_Municipios_2024.cpg
+data/dados_shapefile/BR_Municipios_2024/BR_Municipios_2024.prj
+data/dados_shapefile/BR_Municipios_2024/BR_Municipios_2024.shx
+data/dados_shapefile/RR_Municipios_2024/RR_Municipios_2024.dbf
+data/dados_shapefile/RR_Municipios_2024/RR_Municipios_2024.prj
+data/dados_shapefile/RR_Municipios_2024/RR_Municipios_2024.shx
+
+data/raw/pop_corrigida.csv
+data/raw/populacao.xls
+data/ready/pop_mun_final.csv
+data/ready/relatorio_estatistico_pop.csv

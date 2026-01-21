@@ -49,8 +49,9 @@ import matplotlib.pyplot as plt
 from pathlib import Path
 
 # Caminhos
-input_path = r"C:\Users\Rodrigo\Desktop\projetos\data\ready\pop_mun_final.csv"
-output_dir = r"C:\Users\Rodrigo\Desktop\projetos\graficos"
+OUTDIR = Path.home() / "Desktop" / "ebac" / "EBAC_PYTHON_WEBSCRAPING" / "data" / "ready"
+input_path = OUTDIR / "pop_mun_final.csv"
+output_dir = Path.home() / "Desktop" / "ebac" / "EBAC_PYTHON_WEBSCRAPING" / "graficos"
 Path(output_dir).mkdir(parents=True, exist_ok=True)
 
 # Leitura dos dados
